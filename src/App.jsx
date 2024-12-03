@@ -9,13 +9,15 @@ import img5 from "./assets/b5.avif";
 import img6 from "./assets/b6.avif";
 import Stopwatch from "./Stopwatch";
 import StarRating from "./StarRating";
+import Portfolio from "./Portfolio";
+import PortComp from "./PortComp";
 const App = () => {
   // const images = [img1, img2, img3, img4, img5, img6];
   // return <Carousel images={images} />;
   // return <Clock />;
-
   // return <Stopwatch />;
-  return <StarRating starCount={5} />;
+  // return <StarRating starCount={5} />;
+  return <PortComp />;
 };
 
 export default App;

@@ -1,0 +1,80 @@
+:root {
+  --dark: #000;
+  --white: fff;
+  --grey: #f6f6f6;
+  --shadow: #ccc;
+  --lightgrey: #f9f9f9;
+  --usercolor: #333;
+}
+
+
+
+
+.thing {
+  width: 80%;
+  border-radius: 5px;
+  margin: 40px 0px 0px calc(10% - 10px);
+  padding: 20px;
+  font-size: 20px;
+  box-shadow: -5px 5px 0px 0px var(--dark);
+  background-color: var(--white);
+  border: 2px solid #000;
+  position: relative;
+  transition: width 0.5s, margin 0.5s;
+}
+
+.thing:hover {
+  width: 81%;
+  margin: 45px 10px 0px calc(9.5% - 7px);
+}
+
+/* .progressBar {
+  width: 50%;
+  border-radius: 8px;
+  border: 2px inset var(--dark);
+  height: 30px;
+  margin-top: 20px;
+  display: inline-block;
+  padding-right: 3px;
+  background: var(--white);
+  box-shadow: -4.5px 5px inset var(--dark);
+}
+
+.progressFilled {
+  border-radius: 6px 8px 2px 5px;
+  height: 27px;
+  background: var(--usercolor);
+  border-left: 1px solid var(--dark);
+  border-top: 3.5px solid var(--dark);
+  border-right: 1px solid var(--dark);
+  transition: width 0.4s;
+} */
+
+.plus {
+  height: 34px;
+  width: 34px;
+  background: #fff;
+  color: var(--dark);
+  border-radius: 8px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 18px 0px 0px 5px;
+  box-shadow: -3px 3px var(--dark);
+  line-height: 28px;
+  font-size: 28px;
+  text-align: center;
+  border: 2px solid var(--dark);
+  font-weight: 600;
+  padding: 0px;
+}
+
+.plus:hover {
+  box-shadow: -2px 2px var(--dark);
+  transform: translate(-1px);
+}
+
+.plus:active {
+  box-shadow: -1px 1px var(--dark);
+  transform: translate(-1px);
+}
+
