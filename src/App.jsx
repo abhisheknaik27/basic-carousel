@@ -11,13 +11,15 @@ import Stopwatch from "./Stopwatch";
 import StarRating from "./StarRating";
 import Portfolio from "./Portfolio";
 import PortComp from "./PortComp";
+import Accordion from "./Accordion";
 const App = () => {
   // const images = [img1, img2, img3, img4, img5, img6];
   // return <Carousel images={images} />;
   // return <Clock />;
   // return <Stopwatch />;
   // return <StarRating starCount={5} />;
-  return <PortComp />;
+  // return <PortComp />;
+  <Accordion />;
 };
 
 export default App;
